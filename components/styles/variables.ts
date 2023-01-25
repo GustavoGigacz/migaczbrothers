@@ -1,11 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
-import { themeOptions } from '../Contexts/ThemeContext';
+import { createGlobalStyle } from "styled-components";
 
-interface VariablesProps {
-  theme: themeOptions;
-}
-
-const Variables = createGlobalStyle<VariablesProps>`
+const Variables = createGlobalStyle`
   :root {
     --dark-primary: #161616;
     --dark-secondary: #242424;
