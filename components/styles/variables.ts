@@ -5,8 +5,6 @@ const Variables = createGlobalStyle`
     --dark-primary: #161616;
     --dark-secondary: #242424;
 
-    
-
     --container-width: 1400px;
  
     --rounded: 8px;

@@ -10,6 +10,6 @@ const NavBar = (): JSX.Element => {
 };
 
 const NavBarContent = styled.div`
-  background-color: var(--dark-primary);
+  background: var(--dark-primary);
 `;
 export default NavBar;
