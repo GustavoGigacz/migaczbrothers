@@ -5,6 +5,10 @@ const Variables = createGlobalStyle`
     --dark-primary: #161616;
     --dark-secondary: #242424;
 
+    --white-color-font: #FFFFFF;
+    --green-color: #00796B;
+
+
     --container-width: 1400px;
  
     --rounded: 8px;
