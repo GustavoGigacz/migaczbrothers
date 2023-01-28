@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import MigaczBrothersIcon from "./icons/MigaczBrother";
+import MigaczBrothersIcon from "./icons/MigaczBrothersIcon";
+import Link from "next/link";
 
 const NavBar = (): JSX.Element => {
   return (
@@ -7,10 +8,18 @@ const NavBar = (): JSX.Element => {
       <Nav>
         <MigaczBrothersIcon />
         <NavList>
-          <NavLink>Início</NavLink>
-          <NavLink>Sobre nós</NavLink>
-          <NavLink>Depoimentos</NavLink>
-          <ContactButton>Contacte-nos</ContactButton>
+          <NavLink>
+            <Link href={"./"}>Home</Link>
+          </NavLink>
+          <NavLink>
+            <Link href={"./service"}>Service</Link>
+          </NavLink>
+          <NavLink>
+            <Link href={"./aboutus"}> About us</Link>
+          </NavLink>
+          <ContactButton>
+            <Link href={"./contact"}> Contact Us</Link>
+          </ContactButton>
         </NavList>
       </Nav>
     </NavContainer>
@@ -24,7 +33,7 @@ const NavContainer = styled.div`
 `;
 
 const Nav = styled.div`
-  width: 1400px;
+  width: var(--container-width);
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -52,5 +61,6 @@ const ContactButton = styled.button`
   background-color: var(--green-color);
   color: var(--white-color-font);
   border-radius: var(--rounded);
+  font-size: 16px;
 `;
 export default NavBar;

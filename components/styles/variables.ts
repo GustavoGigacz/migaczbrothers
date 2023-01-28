@@ -6,6 +6,7 @@ const Variables = createGlobalStyle`
     --dark-secondary: #242424;
 
     --white-color-font: #FFFFFF;
+    --primary-color-font: #e4e4e4;
     --green-color: #00796B;
 
 
