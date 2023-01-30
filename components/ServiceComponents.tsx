@@ -1,4 +1,6 @@
-const Shared = (): JSX.Element => {
+import styled from "styled-components";
+
+const Service = (): JSX.Element => {
   return (
     <>
       <section></section>
@@ -10,4 +12,6 @@ const Shared = (): JSX.Element => {
   );
 };
 
-export default Shared;
+const section = styled.section``;
+
+export default Service;

@@ -1,11 +1,11 @@
 import LandingPage from "../components/LandingPage";
-import Shared from "../components/SharedComponents";
+import Service from "../components/ServiceComponents";
 
 export default function Home() {
   return (
     <>
       <LandingPage />
-      <Shared />
+      <Service />
     </>
   );
 }
