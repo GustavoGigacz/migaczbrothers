@@ -1,11 +1,11 @@
 import LandingPage from "../components/LandingPage";
-import Service from "../components/ServiceComponents";
+import Services from "../components/Services/Services";
 
 export default function Home() {
   return (
     <>
       <LandingPage />
-      <Service />
+      <Services />
     </>
   );
 }
