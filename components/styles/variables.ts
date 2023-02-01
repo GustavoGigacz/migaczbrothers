@@ -4,6 +4,7 @@ const Variables = createGlobalStyle`
   :root {
     --dark-primary: #161616;
     --dark-secondary: #242424;
+    --dark-thirst: #101010;
 
     --white-color-font: #FFFFFF;
     --primary-color-font: #e4e4e4;
