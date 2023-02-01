@@ -10,8 +10,20 @@ import AirbnbIcon from "../icons/AirbnbIcon";
 import ZoomIcon from "../icons/ZoomIcon";
 
 import NodeIcon from "../icons/NodeIcon";
-import FacebookIcon from "../icons/FacebookIcon";
-import IfoodIcon from "../icons/IfoodIcon";
+import MediumIcon from "../icons/MediumIcon";
+import NetflixIcon from "../icons/NetflixIcon";
+
+import PostgreSQLIcon from "../icons/PostgreSQLIcon";
+import RobinhoodIcon from "../icons/RobinhoodIcon";
+import NasaIcon from "../icons/NasaIcon";
+
+import NextIcon from "../icons/NextIcon";
+import TypeformIcon from "../icons/TypeformIcon";
+import NotionIcon from "../icons/NotionIcon";
+
+import Netifly from "../icons/NetflyIcon";
+import SanityIcon from "../icons/SanityIcon";
+import NikeIcon from "../icons/NikeIcon";
 
 const CarouselCards = [
   {
@@ -22,28 +34,32 @@ const CarouselCards = [
     socialProof: [AirbnbIcon, ZoomIcon],
   },
   {
-    title: "a",
-    paragraph: "a",
+    title: "Node",
+    paragraph:
+      "NodeJS is a powerful and reliable tool for writing backend code. This is the basis for many of our services including APIs, CMS, custom systems, Discord bots, etc.",
     icon: NodeIcon,
-    socialProof: [IfoodIcon, FacebookIcon],
+    socialProof: [MediumIcon, NetflixIcon],
   },
   {
-    title: "a",
-    paragraph: "a",
-    icon: NodeIcon,
-    socialProof: [IfoodIcon, FacebookIcon],
+    title: "PostgreSQL",
+    paragraph:
+      "PostgreSQL is a feature-rich, open-source database management system. It's popular for its support of complex SQL queries, full-text search, and powerful indexing options. We use it to store and manage data for your web apps.",
+    icon: PostgreSQLIcon,
+    socialProof: [RobinhoodIcon, NasaIcon],
   },
   {
-    title: "a",
-    paragraph: "a",
-    icon: NodeIcon,
-    socialProof: [IfoodIcon, FacebookIcon],
+    title: "Next",
+    paragraph:
+      "NextJS is what makes our websites so blazing fast. It's our Server Side Rendering engine of choice for React. It offers automatic code splitting and optimized performance for fast, scalable web applications.",
+    icon: NextIcon,
+    socialProof: [TypeformIcon, NotionIcon],
   },
   {
-    title: "a",
-    paragraph: "a",
-    icon: NodeIcon,
-    socialProof: [IfoodIcon, FacebookIcon],
+    title: "Sanity",
+    paragraph:
+      "Sanity is a flexible headless CMS that makes it easy to manage and deliver structured content. This technology allows us developers to create complex relationships while keeping it extremely simple for you (the client) to manage your content.",
+    icon: SanityIcon,
+    socialProof: [Netifly, NikeIcon],
   },
 ];
 
@@ -79,6 +95,8 @@ const CarouselList = (): JSX.Element => {
 const SwiperContainer = styled.div`
   background-color: #161616;
   max-width: 100%;
+  display: inline-block;
+  padding-bottom: 80px;
 `;
 const Title = styled.h2`
   font-size: 40px;
