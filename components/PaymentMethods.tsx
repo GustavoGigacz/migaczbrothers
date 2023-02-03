@@ -7,9 +7,7 @@ const PaymentMethods = (): JSX.Element => {
   return (
     <PaymentMethodsContainer>
       <Section>
-        <PaySection>
-          <Title>Payment Methods</Title>
-        </PaySection>
+        <Title>Payment Methods</Title>
         <MethodsSection>
           <WireTransfer>
             <WireTransferIcon /> WIRE TRANSFER
@@ -33,15 +31,14 @@ const PaymentMethodsContainer = styled.div`
 const Section = styled.div`
   width: 1400px;
   margin: 0 auto;
+  padding-bottom: 80px;
 `;
-const PaySection = styled.div`
-  display: flex;
-  justify-content: center;
-`;
+
 const Title = styled.h2`
   font-size: 40px;
   color: var(--primary-color-font);
   padding: 80px 0 40px;
+  text-align: center;
 `;
 const MethodsSection = styled.ul`
   display: flex;
@@ -56,6 +53,7 @@ const WireTransfer = styled.li`
   display: flex;
   align-items: center;
   letter-spacing: 0.12em;
+  gap: 20px;
 `;
 const CreditCard = styled.li`
   text-transform: uppercase;
@@ -63,6 +61,7 @@ const CreditCard = styled.li`
   display: flex;
   align-items: center;
   letter-spacing: 0.12em;
+  gap: 20px;
 `;
 const Crypto = styled.li`
   text-transform: uppercase;
@@ -70,6 +69,7 @@ const Crypto = styled.li`
   display: flex;
   align-items: center;
   letter-spacing: 0.12em;
+  gap: 20px;
 `;
 
 export default PaymentMethods;
