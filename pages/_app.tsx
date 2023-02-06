@@ -2,6 +2,7 @@ import GlobalStyle from "../components/styles/globalStyles";
 import Variables from "../components/styles/variables";
 import type { AppProps } from "next/app";
 import NavBar from "../components/NavBar";
+import Footer from "../components/ Footer";
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
@@ -10,6 +11,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Variables />
       <NavBar />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 };
