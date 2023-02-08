@@ -17,11 +17,11 @@ const Payment = (): JSX.Element => {
 
 const PaymentContainer = styled.div`
   background-color: var(--dark-primary);
-  max-width: 100%;
+  width: 100%;
   padding: 80px 16px;
 `;
 const PaymentSection = styled.div`
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
 `;
 const SubTitle = styled.h2`

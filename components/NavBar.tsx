@@ -27,18 +27,23 @@ const NavBar = (): JSX.Element => {
 };
 
 const NavContainer = styled.div`
-  background: var(--dark-primary);
+  background-color: var(--dark-primary);
   width: 100%;
   padding: 24px 0;
 `;
 
 const Nav = styled.div`
-  width: var(--container-width);
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 16px;
+  background-color: var(--dark-primary);
+
+  @media (max-width: 980px) {
+    padding: 8px 16px;
+  }
 `;
 
 const NavList = styled.ul`

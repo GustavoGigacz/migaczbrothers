@@ -33,11 +33,11 @@ const Service = ({
 
 const SectionContainer = styled.div`
   background-color: var(--dark-secondary);
-  max-width: 100%;
+  width: 100%;
 `;
 
 const DriveInContainer = styled.div`
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 80px 16px;
 `;

@@ -5,39 +5,37 @@ import MailIcon from "./icons/MailIcon";
 
 const Footer = (): JSX.Element => {
   return (
-    <>
-      <FooterSection>
-        <FooterContent>
-          <FooterContainer>
-            <LanguageContent>
-              <Language>EN</Language>
-              <Language>PT</Language>
-            </LanguageContent>
-            <IconContent>
-              <LinkedinIcon />
-              <MailIcon />
-            </IconContent>
-            <NavContent>
-              <NavLink>Home</NavLink>
-              <NavLink>About Us</NavLink>
-              <NavLink>Contact Us</NavLink>
-            </NavContent>
-          </FooterContainer>
-          <CopyrightContainer>
-            Copyright © 2023 Migacz Brothers
-          </CopyrightContainer>
-        </FooterContent>
-      </FooterSection>
-    </>
+    <FooterSection>
+      <FooterContent>
+        <FooterContainer>
+          <LanguageContent>
+            <Language>EN</Language>
+            <Language>PT</Language>
+          </LanguageContent>
+          <IconContent>
+            <LinkedinIcon />
+            <MailIcon />
+          </IconContent>
+          <NavContent>
+            <NavLink>Home</NavLink>
+            <NavLink>About Us</NavLink>
+            <NavLink>Contact Us</NavLink>
+          </NavContent>
+        </FooterContainer>
+        <CopyrightContainer>
+          Copyright © 2023 Migacz Brothers
+        </CopyrightContainer>
+      </FooterContent>
+    </FooterSection>
   );
 };
 
-const FooterSection = styled.div`
+const FooterSection = styled.footer`
   background-color: var(--dark-secondary);
-  max-width: 100%;
+  width: 100%;
 `;
 const FooterContent = styled.div`
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
 `;
 const FooterContainer = styled.div`
@@ -68,7 +66,7 @@ const NavContent = styled.ul`
   justify-self: flex-end;
   gap: 30px;
 `;
-const NavLink = styled.ul`
+const NavLink = styled.li`
   color: var(--white-color-font);
 `;
 const CopyrightContainer = styled.div`

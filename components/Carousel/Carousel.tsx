@@ -94,7 +94,7 @@ const CarouselList = (): JSX.Element => {
 
 const SwiperContainer = styled.div`
   background-color: #161616;
-  max-width: 100%;
+  width: 100%;
   display: inline-block;
   padding-bottom: 80px;
 `;
@@ -102,7 +102,7 @@ const Title = styled.h2`
   font-size: 40px;
   color: var(--primary-color-font);
   font-weight: 600;
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 50px 16px;
 `;

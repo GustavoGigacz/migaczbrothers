@@ -31,7 +31,7 @@ const LandingPageContainer = styled.div`
 `;
 
 const LandingContainer = styled.div`
-  width: var(--container-width);
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

@@ -26,10 +26,10 @@ const PaymentMethods = (): JSX.Element => {
 
 const PaymentMethodsContainer = styled.div`
   background-color: var(--dark-primary);
-  max-width: 100%;
+  width: 100%;
 `;
 const Section = styled.div`
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-bottom: 80px;
 `;
