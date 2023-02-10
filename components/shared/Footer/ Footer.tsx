@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import LinkedinIcon from "./icons/LinkedinIcon";
-import MailIcon from "./icons/MailIcon";
+import LinkedinIcon from "../../icons/LinkedinIcon";
+import MailIcon from "../../icons/MailIcon";
 
 const Footer = (): JSX.Element => {
   return (

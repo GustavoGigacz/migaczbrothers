@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import MigaczBrothersIcon from "./icons/MigaczBrothersIcon";
+import MigaczBrothersIcon from "../../icons/MigaczBrothersIcon";
 import Link from "next/link";
 
 const NavBar = (): JSX.Element => {
