@@ -2,20 +2,20 @@ import styled from "styled-components";
 import MigaczBrothersIcon from "../../icons/MigaczBrothersIcon";
 import Link from "next/link";
 
-const NavBar = (): JSX.Element => {
+const DesktopNavbar = (): JSX.Element => {
   return (
     <NavContainer>
       <Nav>
         <MigaczBrothersIcon />
         <NavList>
           <NavLink>
-            <Link href={"./"}>Home</Link>
+            <Link href={"/"}>Home</Link>
           </NavLink>
           <NavLink>
             <Link href={"./service"}>Service</Link>
           </NavLink>
           <NavLink>
-            <Link href={"./aboutus"}> About us</Link>
+            <Link href="/about-us"> About us</Link>
           </NavLink>
           <ContactButton>
             <Link href={"./contact"}> Contact Us</Link>
@@ -68,4 +68,4 @@ const ContactButton = styled.button`
   border-radius: var(--rounded);
   font-size: 16px;
 `;
-export default NavBar;
+export default DesktopNavbar;

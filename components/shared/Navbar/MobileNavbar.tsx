@@ -1,12 +1,15 @@
+import { useState } from "react";
 import styled from "styled-components";
 
 import MigaczBrothersIcon from "../../icons/MigaczBrothersIcon";
 import MobileMenuIcon from "../../icons/MobileMenuIcon";
 import SunIcon from "../../icons/SunIcon";
 
-import MobileNavbarMenu from "./MobileNavbarMenu";
+import MobileMenu from "./MobileMenu";
 
 const MobileNavbar = (): JSX.Element => {
+  const [menu, setMenu] = useState(false);
+
   return (
     <>
       <NavbarMobileContainer>
@@ -17,12 +20,12 @@ const MobileNavbar = (): JSX.Element => {
           <IconContent>
             <MigaczBrothersIcon />
           </IconContent>
-          <ButtonMobileContent>
+          <ButtonMobileContent onClick={() => setMenu(true)}>
             <MobileMenuIcon />
           </ButtonMobileContent>
         </NavbarMobileContent>
       </NavbarMobileContainer>
-      <MobileNavbarMenu />
+      {menu ? <MobileMenu setMenu={setMenu} /> : null}
     </>
   );
 };

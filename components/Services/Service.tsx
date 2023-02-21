@@ -51,6 +51,10 @@ const DriveInContent = styled.div<DriveInContentProps>`
   align-items: center;
   gap: 100px;
   flex-direction: ${(props) => (props.$reversed ? "row-reverse" : "row")};
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 const TextContainer = styled.div`

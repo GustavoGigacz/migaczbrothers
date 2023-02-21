@@ -6,6 +6,7 @@ import PaymentMethods from "../../public/PaymentMethods.png";
 import Seo from "../../public/Seo.png";
 //----Images----//----//----Images----//----//----Images----//----//----Images----//
 import Service from "./Service";
+import styled from "styled-components";
 
 const ServicesList = [
   {

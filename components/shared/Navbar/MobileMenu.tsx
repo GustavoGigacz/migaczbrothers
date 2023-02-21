@@ -1,14 +1,19 @@
 import styled from "styled-components";
+import { Dispatch, SetStateAction, useState } from "react";
 
 import CloseIcon from "../../icons/CloseIcon";
 import LinkedinIcon from "../../icons/LinkedinIcon";
 import MailIcon from "../../icons/MailIcon";
 
-const MobileNavbarMenu = (): JSX.Element => {
+interface MobileNavbarMenuProps {
+  setMenu: Dispatch<SetStateAction<boolean>>;
+}
+
+const MobileNavbarMenu = ({ setMenu }: MobileNavbarMenuProps): JSX.Element => {
   return (
     <MobileMenuContainer>
       <MobilmeMenuContent>
-        <CloseIconButton>
+        <CloseIconButton onClick={() => setMenu(false)}>
           <CloseIcon />
         </CloseIconButton>
         <NavLinkContent>
