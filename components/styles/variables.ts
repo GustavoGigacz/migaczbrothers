@@ -11,6 +11,8 @@ const Variables = createGlobalStyle`
     --secondary-color-font: #cdd1d6;
     --green-color: #00796B;
 
+    --gray-font: #7c7c7c;
+
 
 
     --container-width: 1400px;
