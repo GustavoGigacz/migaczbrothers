@@ -53,6 +53,7 @@ const Paragraph = styled.p`
   color: var(--gray-font);
   max-width: 700px;
   margin: 0 auto;
+  padding-bottom: 40px;
 `;
 
 export default AboutUs;

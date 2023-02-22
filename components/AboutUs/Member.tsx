@@ -78,9 +78,24 @@ const AnimatePresence = styled.div`
 `;
 const DataContainer = styled.div`
   color: white;
+  padding: 0 60px;
 `;
-const CardTitle = styled.h2``;
-const CardSubheader = styled.h3``;
-const CardDescription = styled.p``;
+const CardTitle = styled.h2`
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 9px;
+`;
+const CardSubheader = styled.h3`
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 9px;
+  letter-spacing: 10px;
+`;
+const CardDescription = styled.p`
+  font-size: 14px;
+  text-align: justify;
+  line-height: 140%;
+`;
 
 export default MemberComponent;
