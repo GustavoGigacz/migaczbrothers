@@ -12,13 +12,13 @@ const DesktopNavbar = (): JSX.Element => {
             <Link href={"/"}>Home</Link>
           </NavLink>
           <NavLink>
-            <Link href={"./service"}>Service</Link>
+            <Link href={"/"}>Service</Link>
           </NavLink>
           <NavLink>
-            <Link href="/about-us"> About us</Link>
+            <Link href='/about-us'> About us</Link>
           </NavLink>
           <ContactButton>
-            <Link href={"./contact"}> Contact Us</Link>
+            <Link href={"./contact-us"}> Contact Us</Link>
           </ContactButton>
         </NavList>
       </Nav>

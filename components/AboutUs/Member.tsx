@@ -1,5 +1,6 @@
 import { StaticImageData } from "next/image";
 import { useState } from "react";
+import { useEffect } from "react";
 import Image from "next/image";
 import styled from "styled-components";
 

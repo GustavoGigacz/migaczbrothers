@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styled from "styled-components";
 
 const Invitation = (): JSX.Element => {
@@ -27,7 +26,7 @@ const InvitationContainer = styled.div`
 `;
 const Section = styled.div``;
 const Paragraph = styled.p`
-  font-size: 24px;
+  font-size: 20px;
 `;
 const LinkMail = styled.ul`
   color: var(--gray-font);

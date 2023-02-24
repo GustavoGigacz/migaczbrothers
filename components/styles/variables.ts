@@ -13,6 +13,9 @@ const Variables = createGlobalStyle`
 
     --gray-font: #7c7c7c;
 
+    --primary-20: #00796b33;
+    --second-20: #00796b;
+
 
 
     --container-width: 1400px;
